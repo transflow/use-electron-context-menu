@@ -1,9 +1,9 @@
 {
   "name": "use-electron-context-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Electron context menu React hook",
   "author": "Matthias Halfmann",
-  "repository": "transflow/react-electron-context-menu",
+  "repository": "transflow/use-electron-context-menu",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -23,7 +23,8 @@
   "license": "ISC",
   "peerDependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "electron": "^11.2.3"
   },
   "devDependencies": {
     "@types/react": "^17.0.1",

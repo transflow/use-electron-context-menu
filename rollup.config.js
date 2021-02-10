@@ -14,5 +14,5 @@ export default {
     }
   ],
   plugins: [typescript({ objectHashIgnoreUnknownHack: true })],
-  external: ["react", "react-dom"]
+  external: ["react", "react-dom", "electron"]
 }
