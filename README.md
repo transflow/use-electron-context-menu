@@ -37,7 +37,7 @@ export default function App() {
 ## API
 
 ```ts
-useContextMenu(ref, menuItems, options)
+const { closeMenu } = useContextMenu(ref, menuItems, options)
 ```
 
 ### Parameters
@@ -46,4 +46,13 @@ useContextMenu(ref, menuItems, options)
 - `menuItems`: An array of Electron [menu items](https://www.electronjs.org/docs/api/menu-item)
 - `options`: _(optional)_ An object of options for this hook
 
+### Return Values
+
+- `closeMenu()`: Force the context menu to close
+
 ### Options
+
+- `x`: Display context menu at fixed x coordinate
+- `y`: Display context menu at fixed y coordinate
+- `onContext(event)`: Called when context menu opens
+- `onClose()`: Called when context menu closes
