@@ -1,6 +1,6 @@
 {
   "name": "use-electron-context-menu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Electron context menu React hook",
   "author": "Matthias Halfmann",
   "repository": "transflow/use-electron-context-menu",
